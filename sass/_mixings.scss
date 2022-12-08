@@ -1,0 +1,11 @@
+@mixin sizes ($width, $height)
+{
+    width: $width;
+    height: $height;
+}
+@mixin headers ()
+{
+    background-color: rgb(75, 124, 75);
+    text-align: center;
+    margin-top: 5px;
+}

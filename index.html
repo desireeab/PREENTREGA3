@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Argentina Viajes es una pagina de turismo con venta paquetes de viajes para las 23 provincias argentinas. Tambien ofrece promociones diarias.">
+    <meta name="keywords" content="TURISMO, VIAJES, PAQUETES, ARGENTINA, PROVINCIAS">
+    <title>Inicio</title>
+    <link rel="shortcut icon" href="./multimedia/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./pages/css/nuevaHoja.css">
+</head>
+<body>
+    <header class="">
+        <nav class="navbar navbar-expand-md bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./multimedia/favicon.ico" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#provincias">Provincias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/paquetes.html">Paquetes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <section class="container sectionVideo mt-3">
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/PeIHQN2z5Wk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      </section>
+      <!--PROVINCIAS-->
+        <section class="container boxprov mt-5">
+            <h1 id="provincias">
+                Provincias
+            </h1>
+            <div class="container text-center">
+                <div class="row">
+                    <div data-aos="flip-left" class="col-12 col-lg-4 provincias">
+                        <img src="./multimedia/buenos aires.jpg" alt="bsas">
+                        <h2 class="mt-3 mb-3">
+                            📍Buenos Aires
+                        </h2>
+                    </div>
+                    <div data-aos="flip-left" class="col-12 col-lg-4 provincias">
+                        <img src="./multimedia/mendoza.jpg" alt="men" >
+                        <h2 class="mt-3 mb-3">
+                            📍Mendoza
+                        </h2>
+                    </div>
+                    <div data-aos="flip-left" class="col-12 col-lg-4 provincias">
+                        <img src="./multimedia/neuquen.jpg" alt="neu" >
+                        <h2 class="mt-3 mb-3">
+                            📍Neuquén
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--FOOTER-->
+    <footer class="mb-4">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <img src="../multimedia/argentina logo.png" alt="logoPag" width="60%">
+              </div>
+              <div class="col-12 col-lg-6">
+                <h1>
+                    Redes
+                </h1>
+                <img src="../multimedia/redes.png" alt="redes" width="50%" >
+              </div>
+            </div>
+        <div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

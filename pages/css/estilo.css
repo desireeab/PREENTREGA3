@@ -1,0 +1,100 @@
+*{
+   margin: 0px;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    font: medium black 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background-image: url(https://agenda2030lac.org/sites/default/files/styles/hero_image/public/2019-08/banner_argentina.jpg?h=aba33467&itok=rLKdGXtF);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: .9;
+    height: 10rem;
+}
+.navbar a:hover {
+    background-color: white;
+    opacity: 60%;
+}
+.sectionVideo{
+    text-align: center;
+}
+.video{
+    position: relative;
+    padding-bottom: 70%;
+    padding-top: 0px;
+    height:0;
+    overflow: hidden;
+}
+.video iframe{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+.boxprov{
+    border: solid 4px; 
+    color: rgb(75, 124, 75);
+    padding-top: 10px;
+    text-align: center;
+    font-size: larger;
+}
+.provincias{
+    font-size: medium;
+    color: black;
+}
+.provincias img{
+    width: 300px;
+    height: 300px;
+}
+.paquetes{
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    border: solid 2px;
+    border-color: orange;
+    text-align: left;
+    margin: 25px;
+    font-size: medium;
+    color: black;
+    padding: 15px;
+    overflow: hidden;
+}
+.borderheader{
+    background-color: rgb(75, 124, 75);
+    text-align: center;
+    margin-top: 5px;
+}
+.mapa img{
+    width: 100%;
+}
+.nosotros{
+    text-align: center;
+}
+footer{
+    margin-top: 30px;
+    color: rgb(75, 124, 75);
+}
+/*EN TABLET*/
+@media (min-width: 768px) and (max-width: 991.98px){
+    .paquetes{
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    }
+    .paquetes h5{
+    font-size: 1rem;
+    }
+}
+/*EN DESKTOP*/
+@media (min-width: 992px){
+    .paquetes{
+        width: 300px;
+        height: 350px;
+    }
+    .paquetes h5{
+    font-size: 1rem;
+    }
+}
